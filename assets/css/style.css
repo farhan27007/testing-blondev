@@ -1,0 +1,120 @@
+/* list font */
+
+@font-face {
+	font-family: 'pop-sembold';
+	src: url(../fonts/pop-sembold.ttf);
+}
+@font-face {
+	font-family: 'pop-light';
+	src: url(../fonts/pop-light.ttf);
+}
+@font-face {
+	font-family: 'eina';
+	src: url(../fonts/eina.ttf);
+}
+/* list font */
+
+/* hero-image section */
+.hero-section {
+	background:#eef7f4;
+	border-bottom-right-radius: 50px;
+}
+.title-hero {
+	margin-top: 80px !important;
+	color: #221e41;
+	line-height: 1.4;
+	font-family: pop-sembold;
+	font-weight: bold;
+	font-size: 34px;"
+}
+.sub-title-hero {
+	color: #757384;
+	font-family: 'eina';
+	letter-spacing: 0.6px;
+	line-height: 1.7;
+	font-weight: bold;
+	font-size: 17px;
+	margin-top: 30px;
+}
+.button-cek-porto {
+    background: #48AF86;
+    color: #fff;
+    padding: 19px 30px;
+    font-family: 'pop-light';
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    border-radius: 13px;
+}
+.img-mod-hero {
+margin-bottom: -16px;	
+}
+/* hero-image section */
+
+/*slide -client-logo */
+.h-auto {
+  height: auto;
+}
+.quote-client {
+   padding-top: 10px;
+   margin-bottom: 15px;
+   color: #8d97ad !important;
+   font-family: 'eina';
+   letter-spacing: 0.3px;
+   font-size: 18px;
+}
+.cs-client-logo {
+  margin-bottom: 30px;
+}
+.slide-client-logo {
+  margin-top: 40px;
+  /*margin-bottom: 120px; */
+}
+.img-slide-client {
+  margin-top: 20px;
+  padding: 15px;
+}
+.img-slide-client img {
+  width: 130px;
+  filter: grayscale(100%);
+}
+.img-slide-client img:hover ,.img-slide-client img:focus , .img-slide-client img:active {
+  filter: grayscale(0%);
+  transition: all 0.2s ease-in-out;
+}
+/* slide-client-logo */
+
+/* bounce animate */
+.bounce {
+	display: inline-block;
+	position: relative;
+	margin-left: 3px;
+	-moz-animation: bounce 0.5s infinite linear;
+	-o-animation: bounce 0.5s infinite linear;
+	-webkit-animation: bounce 0.5s infinite linear;
+	animation: bounce 0.5s infinite linear;
+}
+@-webkit-keyframes bounce {
+	0% { top: 0; }
+	50% { top: -0.2em; }
+	70% { top: -0.3em; }
+	100% { top: 0; }
+}
+@-moz-keyframes bounce {
+	0% { top: 0; }
+	50% { top: -0.2em; }
+	70% { top: -0.3em; }
+	100% { top: 0; }
+}
+@-ms-keyframes bounce {
+	0% { top: 0; }
+	50% { top: -0.2em; }
+	70% { top: -0.3em; }
+	100% { top: 0; }
+}
+@keyframes bounce {
+	0% { top: 0; }
+	50% { top: -0.2em; }
+	70% { top: -0.3em; }
+	100% { top: 0; }
+}
+/* bounce animate */
