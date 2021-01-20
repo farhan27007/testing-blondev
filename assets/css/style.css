@@ -25,7 +25,7 @@
 	line-height: 1.4;
 	font-family: pop-sembold;
 	font-weight: bold;
-	font-size: 34px;"
+	font-size: 34px;
 }
 .sub-title-hero {
 	color: #757384;
@@ -75,7 +75,7 @@ margin-bottom: -16px;
 }
 .img-slide-client img {
   width: 130px;
-  filter: grayscale(100%);
+  filter: grayscale(0%);
 }
 .img-slide-client img:hover ,.img-slide-client img:focus , .img-slide-client img:active {
   filter: grayscale(0%);
