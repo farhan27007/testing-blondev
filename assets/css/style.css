@@ -1,17 +1,14 @@
 /* list font */
 
 @font-face {
-	font-family: 'pop-sembold';
-	src: url(../fonts/pop-sembold.ttf);
+	font-family: 'raleway';
+	src: url(../fonts/raleway.ttf);
 }
 @font-face {
-	font-family: 'pop-light';
-	src: url(../fonts/pop-light.ttf);
+	font-family: 'raleway-regular';
+	src: url(../fonts/raleway-regular.ttf);
 }
-@font-face {
-	font-family: 'eina';
-	src: url(../fonts/eina.ttf);
-}
+
 /* list font */
 
 /* hero-image section */
@@ -19,70 +16,151 @@
 	background:#eef7f4;
 	border-bottom-right-radius: 50px;
 }
-.title-hero {
-	margin-top: 80px !important;
+/* .title-hero {
+	margin-top: 80px;
 	color: #221e41;
 	line-height: 1.4;
 	font-family: pop-sembold;
 	font-weight: bold;
 	font-size: 34px;
-}
-.sub-title-hero {
-	color: #757384;
-	font-family: 'eina';
-	letter-spacing: 0.6px;
-	line-height: 1.7;
-	font-weight: bold;
-	font-size: 17px;
-	margin-top: 30px;
-}
-.button-cek-porto {
-    background: #48AF86;
-    color: #fff;
-    padding: 19px 30px;
-    font-family: 'pop-light';
-    font-weight: bold;
-    letter-spacing: 0.6px;
-    border-radius: 13px;
-}
-.img-mod-hero {
-margin-bottom: -16px;	
-}
-/* hero-image section */
+	} */
+	.sub-title-hero {
+		color: #8d97ad;
+		font-family: 'raleway';
+		letter-spacing: 0.8px;
+		line-height: 1.8;
+		font-weight: bold;
+		font-size: 17px;
+		margin-top: 30px;
+	}
+	.button-cek-porto {
+		background: #48AF86;
+		color: #fff;
+		padding: 19px 30px;
+		font-family: 'raleway';
+		font-weight: bold;
+		letter-spacing: 0.6px;
+		border-radius: 20px 2px 20px 2px;
+	}
+	.button-cek-porto:hover , .button-cek-porto:focus {
+		text-decoration: none;
+		color: #fff;
+		box-shadow: 3px 3px 11px rgba(72, 175, 134, 0.25);
+	} 
+	.img-mod-hero {
+		margin-bottom: -16px;	
+	}
+	/* hero-image section */
 
-/*slide -client-logo */
-.h-auto {
-  height: auto;
-}
-.quote-client {
-   padding-top: 10px;
-   margin-bottom: 15px;
-   color: #8d97ad !important;
-   font-family: 'eina';
-   letter-spacing: 0.3px;
-   font-size: 18px;
-}
-.cs-client-logo {
-  margin-bottom: 30px;
-}
-.slide-client-logo {
-  margin-top: 40px;
-  /*margin-bottom: 120px; */
-}
-.img-slide-client {
-  margin-top: 20px;
-  padding: 15px;
-}
-.img-slide-client img {
-  width: 130px;
-  filter: grayscale(0%);
-}
-.img-slide-client img:hover ,.img-slide-client img:focus , .img-slide-client img:active {
-  filter: grayscale(0%);
-  transition: all 0.2s ease-in-out;
-}
-/* slide-client-logo */
+	@keyframes spin { 
+		from { 
+			transform: rotate(0deg); 
+			} to { 
+				transform: rotate(360deg); 
+			}
+		}
+		.img-testing {
+			animation-name: spin;
+			animation-duration: 11000ms;
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+		}
+		.title-hero {
+			color: #221e41;
+			margin-top: 5em;
+			line-height: 1.5;
+			font-family: montserrat;
+			font-size: 35px;
+			font-weight: bold;
+			letter-spacing: 0.3px;   
+		}
 
+		/*slide -client-logo */
+		.h-auto {
+			height: auto;
+		}
+		.quote-client {
+			padding-top: 10px;
+			margin-bottom: 15px;
+			color: #8d97ad !important;
+			font-family: 'raleway';
+			letter-spacing: 0.9px;
+			font-size: 17px;
+			font-weight: 600;
+		}
+		.cs-client-logo {
+			margin-bottom: 30px;
+		}
+		.slide-client-logo {
+			margin-top: 40px;
+			/*margin-bottom: 120px; */
+		}
+		.img-slide-client {
+			margin-top: 20px;
+			padding: 15px;
+		}
+		.img-slide-client img {
+			width: 130px;
+			filter: grayscale(0%);
+		}
+		.img-slide-client img:hover ,.img-slide-client img:focus , .img-slide-client img:active {
+			filter: grayscale(0%);
+			transition: all 0.2s ease-in-out;
+		}
+		/* slide-client-logo */
+
+		/* layanan-kami */
+		.green-text {
+			color: #48AF86;
+		}
+		.what-we-do {
+			font-family: 'raleway';
+			color: #48AF86;
+			letter-spacing: 0.9px;
+			font-weight: 600;
+			font-size: 17px;
+		}
+/* .title-section {
+	color: #221e41;
+	font-family: pop-sembold;
+	font-size: 30px;
+	line-height: 1.4;
+	} */
+	.title-sub-section {
+		color: #8d97ad;
+		font-size: 19px;
+		margin-top: 5px;
+		font-family: 'raleway';
+	}
+	.backup-card-service {
+		border-radius: 20px;
+		border: 1px solid #ddd;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 30px;
+		padding: 36.5px;
+	}
+	.name-service {
+		font-size: 21px;
+		margin-left: 15px;
+		margin-top: 2px;
+		font-weight: bold;
+		letter-spacing: 0.3px;
+		color: #57546a;
+		font-family: raleway;
+	}
+	.card-head-service {
+		margin-bottom: 18px;
+	}
+	.card-content {
+		font-family: raleway;
+		font-size: 18px;
+		line-height: 30px;
+		letter-spacing: 0.16px;
+		color: #8d97ad;
+	}
+/* layanan kami
+*/
 /* bounce animate */
 .bounce {
 	display: inline-block;
