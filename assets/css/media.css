@@ -90,6 +90,7 @@
 		font-size: 15.5px;
 		margin-top: 50px;
 		margin-bottom: 35px;
+		font-weight: 100;
 	}
 	/* slide client-homepage */
 
@@ -99,6 +100,7 @@
 	}
 	.title-sub-section {
 		font-size: 15.5px;
+		font-weight: 100;
 	}
 	.backup-row-porto {
 		margin-top: 0 !important;
