@@ -21,6 +21,7 @@
     <!-- INCLUDE GLOBAL JS -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/change.js"></script>
 
     <!-- SLICK SLIDER JS -->
     <script src="assets/vendors/slick/slick.min.js"></script>
@@ -29,19 +30,22 @@
 <body>
     <script>
       $(function() {
+        $("#nav").load("template/nav.html");
         $("#hero-image").load("template/hero-image.html");
         $("#slide-client").load("template/slide-client.html");
-        $("#layanan").load("template/layanan-kami.html");
-        $("#portfolio").load("template/portfolio.html");
+        $("#portofolio").load("template/portfolio.html");
+        $("#testimonial").load("template/testimonials.html");
+        $("#footer").load("template/footer.html");
     });
 </script>
 
 
+<div id="nav"></div>
 <div id="hero-image"></div>
 <div id="slide-client"></div>
-<!-- <div id="layanan"></div>
-<div id="portfolio"></div> -->
-
+<div id="portofolio"></div>
+<div id="testimonial"></div>
+<div id="footer"></div>
 
 </body>
 </html>
