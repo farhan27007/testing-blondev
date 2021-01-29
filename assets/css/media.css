@@ -77,11 +77,13 @@
 	.sub-title-hero {
 		font-size: 15.5px;
 		text-align: center;
+		font-weight: 100;
 	}
 	.button-cek-porto {
 		font-size: 15px !important;
 		padding: 16px 27px;
 		border-radius: 10px;
+		font-weight: 100;
 	}
 	/* hero image-homepage */
 
