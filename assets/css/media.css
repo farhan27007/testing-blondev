@@ -1,0 +1,148 @@
+/* display tablet */
+@media (max-width: 991.98px) { 
+	.global-padding {
+		padding-right: 15px !important;
+		padding-left: 15px !important;
+	}
+	.navbar-light{
+		background-color: #fff !important;
+	}
+	.navbar-brand img {
+		height: 25px !important;	
+	}
+	.navbar-brand span {
+		color: #15b020;
+		font-size: 13.5px;
+	}
+	.navbar-nav {
+		padding-top: 11px;
+		padding-bottom: 10px;
+	}
+	.navbar-nav > li > a{
+		margin-left: 5px;
+		color: #8d97ad !important;
+		margin-bottom: 7px;
+		font-size: 14.5px;
+	}
+	.navbar-nav > li > a:hover {
+		color: #48AF86 !important;
+	}
+	.centering-xs {
+		text-align: center;
+	}
+	.title-hero , .sub-title-hero {
+		text-align: center;
+	}
+	.button-cek-porto {
+		border-radius: 15px;
+	}
+	.h1-original-fsz {
+		font-size: 2rem !important;
+	}
+}
+/* display tablet */
+
+/* ------------------------ */
+
+/* display mobile */
+@media (max-width: 767.98px) { 
+	
+	/* navbar general */
+	.centering-xs {
+		text-align: center;
+	}
+	.m-20-xs {
+		margin-top: 12px !important;	
+	}
+	.no-pt-0 {
+		padding-top: 0 !important
+	}
+	.navbar-light {
+		box-shadow:0px 10px 30px rgba(0, 0, 0, 0.05);
+		padding: 15px 0px;
+	}
+
+	/* hero image-homepage */
+	.m-xs-btn {
+		margin-top: 20px !important;
+	}
+	.backup-img-hero {
+		padding: 2rem !important;
+	}
+	.title-hero {
+		text-align: center;
+		font-size: 21px;
+		margin-top: 1em;
+	}
+	.sub-title-hero {
+		font-size: 15.5px;
+		text-align: center;
+	}
+	.button-cek-porto {
+		font-size: 15px !important;
+		padding: 16px 27px;
+		border-radius: 10px;
+	}
+	/* hero image-homepage */
+
+	/* slide client-homepage */
+	.quote-client{
+		font-size: 15.5px;
+		margin-top: 50px;
+		margin-bottom: 35px;
+	}
+	/* slide client-homepage */
+
+	/* portofolio-homepage */
+	.title-section {
+		font-size: 24px;
+	}
+	.title-sub-section {
+		font-size: 15.5px;
+	}
+	.backup-row-porto {
+		margin-top: 0 !important;
+	}
+	.set-mb-xs {
+		margin-bottom: 0.25em !important;
+	}
+	.more-portofolio {
+		font-size: 15.5px;
+	}
+	.backup-btn-porto{
+		margin-top: 1rem!important;
+	}
+	.backup-pb-porto {
+		padding-bottom: 1px !important
+	}
+	/* portofolio-homepage */
+
+	/* testimonial-homepage */
+	.content-testimonial{
+		font-size: 15px;
+	}
+	/* testimonial-homepage */
+
+	/* footer general */
+	.h1-original-fsz {
+		font-size: 28.5px !important;
+	}
+	.left-text-xs {
+		text-align: left !important
+	}
+	.pt-2-xs {
+		padding-top: .5rem!important;
+	}
+	.backup-value-footer {
+		font-size: 15.5px;
+	}
+	.sub-footer {
+		font-size: 16.5px;
+	}
+	.title-footer {
+		margin-top: 1.5rem!important;
+		margin-bottom: 0;
+	}
+	/* footer general */
+}
+/* display mobile */
