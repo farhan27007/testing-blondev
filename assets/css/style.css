@@ -322,6 +322,9 @@ html {
 	border-top-right-radius: 100px;
 	margin-top: -92px;
 }
+.border-bat-footer {
+	border-bottom: 1px solid rgba(141, 151, 173, 0.2);
+}
 .white-text {
 	color: #fff !important;
 }
