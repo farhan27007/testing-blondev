@@ -147,5 +147,31 @@
 		margin-bottom: 0;
 	}
 	/* footer general */
+
+	/* halaman-about */
+	.backup-about {
+		padding-bottom: 50px;
+	}
+	.section-top-about {
+		padding-top: 140px !important;
+	}
+	.no-pp-about-mobile {
+		padding-top: 0 !important;
+		margin-top: 0 !important;
+	}
+	.p-0-mobile-about {
+		padding: 0 !important;
+	}
+	.about-top {
+		font-size: 13.4px;
+	}
+	.img-about {
+		border: none;
+		border-radius: 0!important;
+		border-top-right-radius: 100px !important;
+	}
+	.number-top {
+		font-size: 45px;
+	}
 }
 /* display mobile */

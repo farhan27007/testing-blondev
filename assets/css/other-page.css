@@ -1,0 +1,43 @@
+/* general */
+.no-mt-footer {
+	margin-top: 0 !important;
+}
+/* general */
+
+/* halaman about */
+.section-top-about {
+	padding-top: 200px;	
+}
+.backup-about {
+	background-color: #48B087;
+	border-top-right-radius: 100px;
+	border-bottom-left-radius:100px;
+	padding-bottom: 80px;
+}
+.sub-backup-about {
+	padding-top: 120px;
+	border-bottom: 1px solid rgba(225, 225, 225, 0.2);
+}
+.sub-first-about {
+	color: #8d97ad;
+	font-family: 'raleway';
+	text-transform: uppercase;
+	letter-spacing: 5.5px;
+	font-weight: bold;
+}
+.img-about {
+	border: 3.5px solid #fff;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+	border-radius: 15px;
+	margin-bottom: -150px;
+}
+.number-top {
+	font-size: 50px;
+	font-family: 'mont';
+	font-weight: bold;
+	color: #221e41;
+}
+.word-sub-about {
+	line-height: 2;font-weight: 100;
+}
+/* halaman about */
