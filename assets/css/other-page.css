@@ -41,3 +41,42 @@
 	line-height: 2;font-weight: 100;
 }
 /* halaman about */
+
+/* halaman layanan */
+.title-service {
+	font-family: mont;
+	color: #221e41;
+	letter-spacing: 0.5px;
+	font-size: 18.5px;
+}
+.fsz-15 {
+	font-size: 15px !important;
+}
+/* halaman layanan */
+
+/* halaman portofolio */
+.lh-16 {
+	line-height: 1.6;
+}
+.item-categories{
+	border-radius: 12px !important;
+	border: 1px solid #ddd;
+	color: #221e41;
+	font-family: 'raleway';
+	font-weight: 600;
+	letter-spacing: 1.2px;
+	margin: 0px 18px;
+	padding: 15px 52px;
+	font-size: 16px;
+}
+.item-categories:hover {
+	color: #48B087;
+	transition: all 0.3s ease-in-out;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	color: #48B087;
+	background-color: #fff;
+	box-shadow: 3px 7px 15px 0 rgb(34 30 65 / 7%);
+	border: 1px solid white;
+}
+/* halaman portofolio */

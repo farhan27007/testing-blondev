@@ -173,5 +173,19 @@
 	.number-top {
 		font-size: 45px;
 	}
+
+	/* halaman portofolio */
+	.content-start {
+		justify-content: start !important;
+	}
+	.w-nav-item {
+		width: 50%;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+	.item-categories {
+		font-size: 15px;
+		padding: 14px;
+	}
 }
 /* display mobile */
