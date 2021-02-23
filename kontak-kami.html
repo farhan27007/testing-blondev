@@ -25,12 +25,16 @@
 	<!-- FONT AWESOME -->
 	<link rel="stylesheet" href="assets/web-fonts-with-css/css/fontawesome-all.min.css">
 
+	<!-- JQUERY-UI CSS -->
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+
 	<!-- INCLUDE GLOBAL JS -->
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/change.js"></script>
 
-	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
 
 </head>
 <body>
@@ -71,6 +75,11 @@
 				</div>
 
 				<div class="form-group floatlabel pb-4">
+					<input id="your_company" type="text" class="form-control" autocomplete="off" >
+					<label for="your_company" class="label">Your Company/Organization</label>
+				</div>
+
+				<div class="form-group floatlabel pb-4">
 					<input id="phone" type="text" class="form-control" autocomplete="off" >
 					<label for="phone" class="label">Phone Number</label>
 				</div>
@@ -81,7 +90,7 @@
 				</div>
 
 				<div class="form-group pb-4">
-					<select class="form-control select2 select2-hidden-accessible" multiple="" data-placeholder="Select services" style="width: 100%;" tabindex="-1" aria-hidden="true">
+					<select class="form-control select2 select2-hidden-accessible" multiple="" data-placeholder="Select our services" style="width: 100%;" tabindex="-1" aria-hidden="true">
 						<option>Web design</option>
 						<option>Web Development</option>
 						<option>Software Development</option>
@@ -105,14 +114,34 @@
 								" - $" + $( "#slider-range" ).slider( "values", 1 ) );
 						} );
 					</script>
-
 					<p>
 						<label for="amount" class="text-range">Price range :</label>
 						<input type="text" id="amount" readonly class="input-range">
 					</p>
-
 					<div id="slider-range"></div>
+				</div>
 
+				<div class="form-group floatlabel pb-4">
+					<input id="project-desc" type="text" class="form-control" autocomplete="off" >
+					<label for="project-desc" class="label">Project description</label>
+				</div>
+
+				<div class="form-group floatlabel pb-4">
+					<select class="form-control select-form-c" id="project-deadline" placeholder="Pr">
+						<option readonly >Project Deadline</option>
+						<option>1 month</option>
+						<option>2 month</option>
+						<option>3 month</option>
+						<option>6 month +</option>
+						<option>1 year +</option>
+						<option>no rush</option>
+					</select>
+				</div>
+
+				<div class="form-group floatlabel pb-4">
+					<p class="pt-5 mt-4 left-text-xs pt-2-xs float-right no-float-xs">
+					<a href="" class="button-cek-porto btn-form btn-lg text-center">Submit</a>
+				</p>
 				</div>
 
 			</div>
@@ -140,36 +169,5 @@
 <script src="assets/vendors/select2/select2.min.js"></script>
 <script src="assets/vendors/select2/doc.select2.js"></script>
 
+<!-- JQUERY-UI JS -->
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-
-<style>
-.ui-widget.ui-widget-content {
-	border: 1px solid #ddd;
-}
-.ui-widget-header {
-	background: #48AF86;
-}
-.ui-state-default, .ui-widget-content .ui-state-default {
-	border: none;
-	outline: none;
-	background: #48af86;
-	border-radius: 100%;
-	width: 21px;
-	height: 21px;
-}
-.text-range {
-	font-family: 'raleway';
-    color: #999;
-    font-weight: 600;
-    letter-spacing: 0.9px;
-    font-size: 18px;
-    margin-right: 9px;
-}
-.input-range {
-	border:0;
-	color:#f6931f;
-	font-weight:bold;
-	font-size: 17px;
-}
-</style>

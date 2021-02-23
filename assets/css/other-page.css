@@ -161,3 +161,46 @@
 }
 
 /* halaman kontak kami - range slider */
+.ui-widget.ui-widget-content {
+	border: 1px solid #ddd !important;
+}
+.ui-widget-header {
+	background: #48AF86 !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default {
+	border: none !important;
+	outline: none !important;
+	background: #48af86 !important;
+	border-radius: 100%;
+	width: 21px;
+	height: 21px;
+}
+.text-range {
+	font-family: 'raleway';
+    color: #999;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+    font-size: 18px;
+    margin-right: 9px;
+}
+.input-range {
+	border:0;
+	color:#f6931f;
+	font-weight:bold;
+	font-size: 17px;
+}
+
+/* halaman kontak kami - select option */
+.select-form-c {
+	color: #999;
+    font-family: 'raleway';
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: text;
+    padding: 0 !important;
+}
+.btn-form {
+	border-radius: 7px;
+	font-size: 19px;
+}

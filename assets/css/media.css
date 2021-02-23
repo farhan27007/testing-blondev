@@ -190,7 +190,7 @@
 
 	/* halaman kontak kami */
 	.floatlabel label.label , 
-	.select2-container--default .select2-search--inline .select2-search__field , .text-range {
+	.select2-container--default .select2-search--inline .select2-search__field , .text-range , .select-form-c {
 		font-size: 16px !important;
 	}
 	.select2-container--default .select2-selection--multiple .select2-selection__choice {
@@ -199,6 +199,14 @@
 	}
 	.input-range {
 		font-size: 15px !important;
+	}
+	.btn-form {
+		float: none !important;
+		display: block;
+		font-size: 16px !important;
+	}
+	.no-float-xs {
+		float: none !important;
 	}
 }
 /* display mobile */
