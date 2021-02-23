@@ -80,3 +80,44 @@
 	border: 1px solid white;
 }
 /* halaman portofolio */
+
+.floatlabel {
+	position:relative;
+}
+.floatlabel input {
+	-webkit-appearance: none;
+	color:#333;
+	padding:10px 12px;
+}
+.floatlabel label.label {
+	position:absolute;
+	top:14px;
+	left:0px;
+	transition:all 0.2s ease-out;
+	background:#fff;
+	color:#999;
+	font-family: 'raleway';
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	cursor:text;
+}
+.floatlabel label.label.floatlabel-shift {
+	top:-7px;
+	left:0px;
+	padding:0px;
+	font-size:14px;
+	color:#999;
+}
+.floatlabel label.label.floatlabel-active {
+	color: #48AF86;
+}
+.form-control , .form-control:focus , .form-control:active {
+	padding: 27px !important;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	border-radius: 0;
+	box-shadow: none;
+	font-family: raleway;
+	padding-left: 0 !important;
+}
