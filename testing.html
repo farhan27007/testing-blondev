@@ -1,48 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<!-- CSS -->
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
-
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/css/other-page.css">
-	<link rel="stylesheet" href="assets/css/media.css">
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Slider - Range slider</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+    $( function() {
+      $( "#slider-range" ).slider({
+        range: true,
+        min: 0,
+        max: 500,
+        values: [ 75, 300 ],
+        slide: function( event, ui ) {
+          $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+        }
+      });
+      $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+        " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+    } );
+  </script>
 </head>
 <body>
 
-	<div class="col-4">
-		<div class="form-group">
-			<label>Multiple</label>
-			<select class="form-control select2 select2-hidden-accessible" multiple="" data-placeholder="Select a State" style="width: 100%;" tabindex="-1" aria-hidden="true">
-				<option>Alabama</option>
-				<option>Alaska</option>
-				<option>California</option>
-				<option>Delaware</option>
-				<option>Tennessee</option>
-				<option>Texas</option>
-				<option>Washington</option>
-			</select>
-		</div> <!-- /.form-group -->
-	</div>
+  <p>
+    <label for="amount">Price range:</label>
+    <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+  </p>
+
+  <div id="slider-range"></div>
+
+
 </body>
 </html>
 
-<script>
-	$(document).ready(function() {
-		$('.select2').select2({
-			closeOnSelect: false
-		});
-	});
-</script>
-
 <style>
-
+.ui-widget.ui-widget-content {
+  border: 1px solid #ddd;
+}
+.ui-widget-header {
+  background: #48AF86;
+}
+.ui-state-default, .ui-widget-content .ui-state-default {
+  border: none;
+  outline: none;
+  background: #48af86;
+  border-radius: 100%;
+  width: 21px;
+  height: 21px;
+}
 </style>

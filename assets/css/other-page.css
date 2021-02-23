@@ -122,3 +122,42 @@
 	font-family: raleway;
 	padding-left: 0 !important;
 }
+
+/* halaman kontak kami - plugin select2 */
+.select2-container--default .select2-selection--multiple {
+	border: none;
+	border-bottom: 1px solid #ddd;
+	border-radius: 0;
+	box-shadow: none;
+	padding-left: 0 !important;
+	padding-top: 0 !important;
+	padding-bottom: 6px !important;
+}
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+	border: none !important;
+	outline: 0;
+}
+.select2-container--default .select2-search--inline .select2-search__field {
+	color: rgb(153, 153, 153);
+	font-family: raleway;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding: 6px;
+	padding-left: 0 !important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+	background: #48af86;
+	color: #fff;
+	font-family: 'raleway';
+	padding: 10px 18px;
+	border: none;
+	letter-spacing: 1.2px;
+	font-weight: 600;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove  {
+	color: #fff;
+	margin-right: 7.5px;
+}
+
+/* halaman kontak kami - range slider */
