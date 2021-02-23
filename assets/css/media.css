@@ -189,8 +189,13 @@
 	}
 
 	/* halaman kontak kami */
-	.floatlabel label.label {
-		font-size: 16px;
+	.floatlabel label.label , 
+	.select2-container--default .select2-search--inline .select2-search__field {
+		font-size: 16px !important;
+	}
+	.select2-container--default .select2-selection--multiple .select2-selection__choice {
+		font-size: 13.5px !important;
+		letter-spacing: 0.9px;
 	}
 }
 /* display mobile */
