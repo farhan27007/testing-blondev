@@ -25,9 +25,8 @@
 	<!-- FONT AWESOME -->
 	<link rel="stylesheet" href="assets/web-fonts-with-css/css/fontawesome-all.min.css">
 
-	<!-- JQUERY-UI CSS -->
-	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-
+	<!-- RANGE SLIDER CSS -->
+	<link rel="stylesheet" href="assets/vendors/range-slider/range-slider.css">
 
 	<!-- INCLUDE GLOBAL JS -->
 	<script src="assets/js/jquery.min.js"></script>
@@ -99,26 +98,14 @@
 				</div>
 
 				<div class="form-group pb-4">
-					<script>
-						$( function() {
-							$( "#slider-range" ).slider({
-								range: true,
-								min: 0,
-								max: 500,
-								values: [ 75, 300 ],
-								slide: function( event, ui ) {
-									$( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
-								}
-							});
-							$( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
-								" - $" + $( "#slider-range" ).slider( "values", 1 ) );
-						} );
-					</script>
-					<p>
+					<div class="backup-font-range-slider">
 						<label for="amount" class="text-range">Price range :</label>
-						<input type="text" id="amount" readonly class="input-range">
-					</p>
-					<div id="slider-range"></div>
+						<div class="range-slider mt-4">
+							<input type="text" class="js-range-slider" value="" />
+						</div>
+						<div class="extra-controls form-inline">
+						</div>
+					</div>
 				</div>
 
 				<div class="form-group floatlabel pb-4">
@@ -140,8 +127,8 @@
 
 				<div class="form-group floatlabel pb-4">
 					<p class="pt-5 mt-4 left-text-xs pt-2-xs float-right no-float-xs">
-					<a href="" class="button-cek-porto btn-form btn-lg text-center">Submit</a>
-				</p>
+						<a href="" class="button-cek-porto btn-form btn-lg text-center">Submit</a>
+					</p>
 				</div>
 
 			</div>
@@ -169,5 +156,5 @@
 <script src="assets/vendors/select2/select2.min.js"></script>
 <script src="assets/vendors/select2/doc.select2.js"></script>
 
-<!-- JQUERY-UI JS -->
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!-- RANGE SLIDER JS -->
+<script src="assets/vendors/range-slider/range-slider.js"></script>
