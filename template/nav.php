@@ -11,20 +11,20 @@
 <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto m-20-xs">
         <li class="nav-item">
-            <a class="nav-link" href="index.html">Beranda<span class="sr-only">(current)</span>
+            <a class="nav-link" href="index.php">Beranda<span class="sr-only">(current)</span>
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="about.html">Tentang</a>
+            <a class="nav-link" href="tentang-kami.php">Tentang</a>
         </li> 
         <li class="nav-item">
-            <a class="nav-link" href="layanan-kami.html">Layanan</a>
+            <a class="nav-link" href="layanan-kami.php">Layanan</a>
         </li> 
         <li class="nav-item">
-            <a class="nav-link" href="portofolio.html">Portofolio</a>
+            <a class="nav-link" href="portofolio.php">Portofolio</a>
         </li> 
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Kontak</a>
+          <a class="nav-link" href="kontak-kami.php">Kontak</a>
       </li> 
   </ul>
 </div>

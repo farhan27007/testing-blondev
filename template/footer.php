@@ -52,23 +52,23 @@
 				<br>
 
 				<div class="d-flex backup-value-footer mb-3">
-					<p class="value-footer ml-0"><a href="index.html">Beranda</a></p>
+					<p class="value-footer ml-0"><a href="index.php">Beranda</a></p>
 				</div>
 
 				<div class="d-flex backup-value-footer mb-3">
-					<p class="value-footer ml-0"><a href="about.html">Tentang</a></p>
+					<p class="value-footer ml-0"><a href="tentang-kami.php">Tentang</a></p>
 				</div>
 
 				<div class="d-flex backup-value-footer mb-3">
-					<p class="value-footer ml-0"><a href="layanan-kami.html">Layanan</a></p>
+					<p class="value-footer ml-0"><a href="layanan-kami.php">Layanan</a></p>
 				</div>
 
 				<div class="d-flex backup-value-footer mb-3">
-					<p class="value-footer ml-0"><a href="portofolio.html">Portofolio</a></p>
+					<p class="value-footer ml-0"><a href="portofolio.php">Portofolio</a></p>
 				</div>
 
 				<div class="d-flex backup-value-footer mb-3">
-					<p class="value-footer ml-0"><a href="kontak-kami">Kontak</a></p>
+					<p class="value-footer ml-0"><a href="kontak-kami.php">Kontak</a></p>
 				</div>
 			</div>
 

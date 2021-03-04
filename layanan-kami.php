@@ -30,17 +30,9 @@
 
 </head>
 <body>
-	<script>
-		$(function() {
-			$("#nav").load("template/nav.html");
-			$("#slide-client").load("template/slide-client.html");
-			$("#footer").load("template/footer.html");
-
-		});
-	</script>
 
 	<!-- include navbar -->
-	<div id="nav"></div>
+	<?php include 'template/nav.php'; ?>
 
 	<!-- top title about -->
 	<div class="container section-top-about">
@@ -105,10 +97,12 @@
 	</div>
 
 	<!-- include slide client -->
-	<div id="slide-client" class="mb-5 pb-3"></div>
+	<div class="mb-5 pb-3">
+		<?php include 'template/slide-client.php'; ?>
+	</div>
 
 	<!-- include footer -->
-	<div id="footer"></div>
+	<?php include 'template/footer.php'; ?>
 
 </body>
 </html>

@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<title>Blondev - Homepage</title>
+	<title>Blondev - Tentang kami</title>
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -30,16 +30,10 @@
 
 </head>
 <body>
-	<script>
-		$(function() {
-			$("#nav").load("template/nav.html");
-			$("#footer").load("template/footer.html");
-
-		});
-	</script>
+	
 
 	<!-- include navbar -->
-	<div id="nav"></div>
+	<?php include 'template/nav.php'; ?>
 
 	<!-- top title about -->
 	<div class="container section-top-about">
@@ -116,7 +110,7 @@
 	</div>
 
 	<!-- include footer -->
-	<div id="footer"></div>
+	<?php include 'template/footer.php'; ?>
 
 </body>
 </html>

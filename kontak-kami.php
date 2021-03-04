@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<title>Blondev - Portofolio Kami</title>
+	<title>Blondev - Kontak Kami</title>
 
 
 	<!-- CSS -->
@@ -37,17 +37,9 @@
 
 </head>
 <body>
-	<script>
-		$(function() {
-			$("#nav").load("template/nav.html");
-			$("#slide-client").load("template/slide-client.html");
-			$("#footer").load("template/footer.html");
-
-		});
-	</script>
 
 	<!-- include navbar -->
-	<div id="nav"></div>
+	<?php include 'template/nav.php'; ?>
 
 
 	<!-- portofolio-->
@@ -142,7 +134,7 @@
 
 
 	<!-- include footer -->
-	<div id="footer"></div>
+	<?php include 'template/footer.php'; ?>
 
 </body>
 </html>
