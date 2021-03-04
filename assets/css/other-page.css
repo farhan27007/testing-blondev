@@ -204,3 +204,27 @@
 	border-radius: 7px;
 	font-size: 19px;
 }
+
+/* halaman kontak kami - chat whatsapp */
+.float{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:25px;
+  background-color:#48af86;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 2px 2px 3px rgba(72, 175, 134, 0.25);
+  z-index:100;
+}
+
+.my-float,.my-float:hover,
+.my-float:focus,.my-float:active{
+  margin-top:16px;
+  text-decoration: none;
+  color: #fff;
+}
+/* floating button whatsapp */
